@@ -10,8 +10,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-
 // Component Module
 import { ComponentModule } from './components/component.module';
 
@@ -27,7 +25,7 @@ import { MasterDataService } from './services/master-data.service';
     AppRoutingModule,
     ComponentModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   providers: [
     StatusBar,

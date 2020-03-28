@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { Tab1Page } from './tab1.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 import { ComponentModule } from '../components/component.module';
+import { CountUpModule } from 'ngx-countup';
 
 @NgModule({
   imports: [
@@ -15,6 +16,7 @@ import { ComponentModule } from '../components/component.module';
     ExploreContainerComponentModule,
     RouterModule.forChild([{ path: '', component: Tab1Page }]),
     ComponentModule,
+    CountUpModule,
   ],
   declarations: [Tab1Page]
 })
